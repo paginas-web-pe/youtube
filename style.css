@@ -1,0 +1,130 @@
+body{
+    background-color: black;
+    margin: 0;
+
+}
+.encavezado{
+    height: 80px;
+    background: white;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between ;
+}
+.titulo a img{
+    width: 100px;
+}
+.lista{
+  
+    margin-left: auto;
+    display: flex;
+    gap: 2em;
+}
+.list a{ 
+    list-style: none;
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+.list{
+    display: flex;
+    list-style: none;
+}
+
+
+@media(max-width:600px){
+    nav{
+        flex-direction: column;
+    }
+    .titulo a img{
+        width: 50px;
+    }
+    .lista{
+        margin-left: -50px;
+    }
+}
+li a:hover{
+    color: red;
+}
+.tiulo_imagem{
+    color: white;
+}
+.title{
+    margin-top: 100px;
+    margin-left: 40px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.floro{
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img img{
+    width: 500px;
+    margin-left: 800px;
+    margin-top: -450px;
+}
+button a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+button{
+    margin-top: 0px;
+    margin-left: 100px;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.red{
+    margin-top: 30px;
+    margin-left: 70px;
+    display: flex;
+    gap: 10px;
+}
+.cont{
+    list-style: none;
+    
+}
+.cont a img{
+    width: 30px;
+}
+@media(max-width:600px){
+    .tiulo_imagen{
+        flex-direction: column;
+    }
+    .img img{
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .tiulo_imagem h1 p{
+        margin-left: 1px;
+    }
+    button{
+        cursor: pointer;
+        margin-top: 0px;
+        margin-left: 40px;
+        width: 450px;
+        height: 50px;
+        background-color: white;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10px;
+        font-size: 30px;
+        text-decoration: none;
+        
+    }
+    button a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    
+    }
+}
